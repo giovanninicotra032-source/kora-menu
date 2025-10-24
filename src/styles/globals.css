@@ -27,3 +27,69 @@ body {
 .font-inter {
   font-family: 'Inter', system-ui, sans-serif;
 }
+
+/* Custom animations and effects inspired by I Masanielli */
+@layer utilities {
+  .shadow-3xl {
+    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .hover\:shadow-3xl:hover {
+    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom hover effects for cards */
+@layer components {
+  .card-hover {
+    @apply transition-all duration-700 ease-out transform;
+  }
+  
+  .card-hover:hover {
+    @apply -translate-y-2 scale-[1.02];
+  }
+  
+  .image-zoom {
+    @apply transition-transform duration-700 ease-out;
+  }
+  
+  .image-zoom:hover {
+    @apply scale-110;
+  }
+  
+  .gradient-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-500;
+  }
+  
+  .gradient-overlay:hover {
+    @apply opacity-100;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Enhanced button styles */
+.btn-primary {
+  @apply px-8 py-4 bg-gray-900 text-white rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1;
+}
+
+.btn-secondary {
+  @apply px-8 py-4 bg-white text-gray-900 border-2 border-gray-900 rounded-full font-medium shadow-lg hover:shadow-xl hover:bg-gray-900 hover:text-white transition-all duration-300 transform hover:-translate-y-1;
+}
