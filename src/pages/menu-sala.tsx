@@ -34,22 +34,36 @@ export default function MenuSala() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8">
+      <section className="py-20 relative overflow-hidden min-h-screen flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/1.png"
+            alt="Menu Sala Background"
+            fill
+            className="object-cover scale-105 hover:scale-100 transition-transform duration-[10s] ease-out"
+            priority
+          />
+          {/* Gradient overlay for better text readability */}
+          <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-black/30 to-black/60"></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tight drop-shadow-2xl">
             Menu Sala
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+          <p className="text-xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
             La nostra carta completa per la cena in sala. Scopri le nostre specialità preparate con ingredienti di prima qualità.
           </p>
         </div>
       </section>
 
       {/* Menu Images */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <div className="rounded-2xl overflow-hidden shadow-xl">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="space-y-8">
+            {/* Menu Pages */}
+            <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
               <Image
                 src="/images/Menu1.png"
                 alt="Menu Sala - Pagina 1"
@@ -58,7 +72,8 @@ export default function MenuSala() {
                 className="w-full h-auto"
               />
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-xl">
+            
+            <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
               <Image
                 src="/images/Menu2.png"
                 alt="Menu Sala - Pagina 2"
@@ -67,46 +82,48 @@ export default function MenuSala() {
                 className="w-full h-auto"
               />
             </div>
-          </div>
 
-          {/* Pizza Menu */}
-          <div className="mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Le nostre Pizze</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="rounded-2xl overflow-hidden shadow-xl">
-                <Image
-                  src="/images/MenuPizza1.png"
-                  alt="Menu Pizza - Parte 1"
-                  width={600}
-                  height={800}
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-2xl overflow-hidden shadow-xl">
-                <Image
-                  src="/images/MenuPizza2.png"
-                  alt="Menu Pizza - Parte 2"
-                  width={600}
-                  height={800}
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="rounded-2xl overflow-hidden shadow-xl">
-                <Image
-                  src="/images/MenuPizza3.png"
-                  alt="Menu Pizza - Parte 3"
-                  width={600}
-                  height={800}
-                  className="w-full h-auto"
-                />
-              </div>
+            {/* Pizza Menu */}
+            <div className="text-center mb-8">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">Le nostre Pizze</h2>
             </div>
-          </div>
+            
+            <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
+              <Image
+                src="/images/MenuPizza1.png"
+                alt="Menu Pizza - Parte 1"
+                width={600}
+                height={800}
+                className="w-full h-auto"
+              />
+            </div>
+            
+            <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
+              <Image
+                src="/images/MenuPizza2.png"
+                alt="Menu Pizza - Parte 2"
+                width={600}
+                height={800}
+                className="w-full h-auto"
+              />
+            </div>
+            
+            <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
+              <Image
+                src="/images/MenuPizza3.png"
+                alt="Menu Pizza - Parte 3"
+                width={600}
+                height={800}
+                className="w-full h-auto"
+              />
+            </div>
 
-          {/* Dolci */}
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Pizze Dolci</h2>
-            <div className="rounded-2xl overflow-hidden shadow-xl">
+            {/* Dolci */}
+            <div className="text-center mb-8">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">Pizze Dolci</h2>
+            </div>
+            
+            <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
               <Image
                 src="/images/Pizzedolci.png"
                 alt="Pizze Dolci"

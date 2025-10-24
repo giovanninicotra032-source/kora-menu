@@ -26,7 +26,7 @@ export default function Home() {
                 Menu Sala
               </Link>
               <Link href="/menu-asporto" className="text-gray-700 hover:text-gray-900 font-medium">
-                Menu Asporto
+                Menu D'asporto
               </Link>
             </nav>
           </div>
@@ -46,8 +46,6 @@ export default function Home() {
           />
           {/* Gradient overlay for better text readability */}
           <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-black/30 to-black/60"></div>
-          {/* Subtle pattern overlay */}
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.05"%3E%3Ccircle cx="30" cy="30" r="1"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
@@ -188,7 +186,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
 
       {/* Contatti e Info Section */}
       <section className="py-20 bg-gradient-to-br from-gray-900 to-black text-white">
