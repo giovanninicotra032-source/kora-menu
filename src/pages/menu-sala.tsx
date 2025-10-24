@@ -38,7 +38,7 @@ export default function MenuSala() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/1.png"
+            src="/images/5.png"
             alt="Menu Sala Background"
             fill
             className="object-cover scale-105 hover:scale-100 transition-transform duration-[10s] ease-out"
