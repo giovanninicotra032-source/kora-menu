@@ -26,7 +26,7 @@ export default function MenuSala() {
                 Menu Sala
               </Link>
               <Link href="/menu-asporto" className="text-gray-700 hover:text-gray-900 font-medium">
-                Menu Asporto
+                Menu D'asporto
               </Link>
             </nav>
           </div>
@@ -147,7 +147,7 @@ export default function MenuSala() {
                 href="/menu-asporto"
                 className="px-8 py-4 bg-white text-gray-900 border-2 border-gray-900 rounded-full hover:bg-gray-900 hover:text-white transition-colors font-semibold text-center"
               >
-                Menu Asporto →
+                Menu D'asporto →
               </Link>
             </div>
           </div>

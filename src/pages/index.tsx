@@ -68,14 +68,14 @@ export default function Home() {
             >
               <div className="aspect-video rounded-xl overflow-hidden mb-6">
                 <Image
-                  src="/images/2.png"
-                  alt="Menu Asporto"
+                  src="/images/scatola.png"
+                  alt="Menu D'asporto"
                   width={600}
                   height={400}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Menu Asporto</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Menu D'asporto</h3>
               <p className="text-gray-600">Porta a casa la nostra arte culinaria</p>
             </Link>
           </div>
@@ -157,7 +157,7 @@ export default function Home() {
                 href="/menu-asporto"
                 className="px-6 py-3 bg-white text-gray-900 border-2 border-gray-900 rounded-full hover:bg-gray-900 hover:text-white transition-colors font-medium"
               >
-                Menu Asporto
+                Menu D'asporto
               </Link>
             </div>
           </div>

@@ -124,7 +124,7 @@ export default function QRCodeSection({
               href="/menu-asporto"
               className="px-6 py-3 bg-white text-gray-900 border-2 border-gray-900 rounded-full hover:bg-gray-900 hover:text-white transition-colors font-medium"
             >
-              Menu Asporto
+              Menu D'asporto
             </Link>
           </div>
         </div>

@@ -26,7 +26,7 @@ export default function MenuAsporto() {
                 Menu Sala
               </Link>
               <Link href="/menu-asporto" className="text-gray-900 font-medium border-b-2 border-gray-900">
-                Menu Asporto
+                Menu D'asporto
               </Link>
             </nav>
           </div>
@@ -37,7 +37,7 @@ export default function MenuAsporto() {
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8">
-            Menu Asporto
+            Menu D'asporto
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             Porta a casa la nostra arte culinaria. Le stesse specialità che gusti in sala, pronte per il tuo asporto.
