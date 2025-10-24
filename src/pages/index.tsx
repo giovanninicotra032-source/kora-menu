@@ -218,8 +218,8 @@ export default function Home() {
                 <h3 className="text-2xl font-bold">Dove</h3>
               </div>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Via Roma, 123<br />
-                00100 – Roma
+                Via del bosco, 4<br />
+                Catania
               </p>
             </div>
 
@@ -234,15 +234,10 @@ export default function Home() {
                 <h3 className="text-2xl font-bold">Come</h3>
               </div>
               <p className="text-gray-300 text-lg mb-4">
-                Prenota direttamente da qui
-              </p>
-              <p className="text-gray-300 text-lg mb-4">
-                Hai bisogno di maggiori informazioni?<br />
-                Contattaci all'indirizzo info@kora.it
+                Hai bisogno di maggiori informazioni?
               </p>
               <p className="text-gray-300 text-lg">
-                Chiamaci al +39 06 123 4567<br />
-                <span className="text-sm text-gray-400">L'ufficio informazioni è aperto dal Lunedì al Sabato dalle ore 9:00 alle ore 18:00</span>
+                Chiamaci al 0956738909
               </p>
             </div>
 

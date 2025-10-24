@@ -65,7 +65,7 @@ export default function MenuSala() {
             {/* Menu Pages */}
             <div className="rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500">
               <Image
-                src="/images/Menu1.png"
+                src="/images/pr.png"
                 alt="Menu Sala - Pagina 1"
                 width={1600}
                 height={2000}
