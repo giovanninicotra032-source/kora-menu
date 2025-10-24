@@ -38,7 +38,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/Homepage.png"
+            src="/images/2.png"
             alt="KORA Pizzeria Background"
             fill
             className="object-cover scale-105 hover:scale-100 transition-transform duration-[10s] ease-out"
