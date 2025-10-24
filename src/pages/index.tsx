@@ -216,7 +216,7 @@ export default function Home() {
             
             <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl shadow-lg inline-block border-2 border-gray-100 mb-8 hover:shadow-xl transition-all duration-500">
               <Image 
-                src="/qr-code.png" 
+                src="/images/Untitled 1.png" 
                 alt="QR Code per il menu KORA" 
                 width={180} 
                 height={180} 

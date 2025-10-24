@@ -128,7 +128,7 @@ export default function MenuSala() {
             
             <div className="bg-white p-4 rounded-xl shadow-md inline-block border-2 border-gray-100 mb-6">
               <Image 
-                src="/qr-code.png" 
+                src="/images/Untitled 1.png" 
                 alt="QR Code per il menu KORA" 
                 width={120} 
                 height={120} 

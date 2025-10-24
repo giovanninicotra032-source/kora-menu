@@ -18,7 +18,7 @@ export default function QRCodeSection({
     return (
       <div className={`text-center ${className}`}>
         <p className="text-gray-500 text-sm mb-4">Scansiona per aprire il menu</p>
-        <Image src="/qr-code.png" alt="QR Code" width={120} height={120} className="mx-auto" />
+        <Image src="/images/Untitled 1.png" alt="QR Code" width={120} height={120} className="mx-auto" />
       </div>
     );
   }
@@ -42,7 +42,7 @@ export default function QRCodeSection({
           </div>
           <div className="bg-white p-3 rounded-xl shadow-md">
             <Image 
-              src="/qr-code.png" 
+              src="/images/Untitled 1.png" 
               alt="QR Code" 
               width={100} 
               height={100}
@@ -73,7 +73,7 @@ export default function QRCodeSection({
       <div className="mb-8 text-center">
         <div className="bg-white p-6 rounded-2xl shadow-lg inline-block border-2 border-gray-100">
           <Image 
-            src="/qr-code.png" 
+            src="/images/Untitled 1.png" 
             alt="QR Code per il menu KORA" 
             width={200} 
             height={200} 

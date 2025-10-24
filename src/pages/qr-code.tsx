@@ -25,7 +25,7 @@ export default function QRCodePage() {
             <div className="mb-8">
               <div className="bg-white p-8 rounded-2xl shadow-lg inline-block border-2 border-gray-100">
                 <Image 
-                  src="/qr-code.png" 
+                  src="/images/Untitled 1.png" 
                   alt="QR Code per il menu KORA" 
                   width={250} 
                   height={250} 
@@ -82,7 +82,7 @@ export default function QRCodePage() {
               </div>
               <div className="bg-white p-4 rounded-xl shadow-md">
                 <Image 
-                  src="/qr-code.png" 
+                  src="/images/Untitled 1.png" 
                   alt="QR Code" 
                   width={120} 
                   height={120}
@@ -109,7 +109,7 @@ export default function QRCodePage() {
               <p className="text-sm text-gray-600 mb-4">Scansiona per il menu</p>
               <div className="bg-white p-3 rounded-lg shadow-sm inline-block">
                 <Image 
-                  src="/qr-code.png" 
+                  src="/images/Untitled 1.png" 
                   alt="QR Code" 
                   width={100} 
                   height={100}
