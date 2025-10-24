@@ -67,9 +67,10 @@ export default function MenuAsporto() {
               <Image
                 src="/images/Menu1.png"
                 alt="Menu Asporto - Pagina 1"
-                width={800}
-                height={1000}
+                width={1600}
+                height={2000}
                 className="w-full h-auto"
+                quality={100}
               />
             </div>
             
@@ -77,9 +78,10 @@ export default function MenuAsporto() {
               <Image
                 src="/images/Menu2.png"
                 alt="Menu Asporto - Pagina 2"
-                width={800}
-                height={1000}
+                width={1600}
+                height={2000}
                 className="w-full h-auto"
+                quality={100}
               />
             </div>
 
@@ -92,9 +94,10 @@ export default function MenuAsporto() {
               <Image
                 src="/images/MenuPizza1.png"
                 alt="Menu Pizza - Parte 1"
-                width={600}
-                height={800}
+                width={1200}
+                height={1600}
                 className="w-full h-auto"
+                quality={100}
               />
             </div>
             
@@ -102,9 +105,10 @@ export default function MenuAsporto() {
               <Image
                 src="/images/MenuPizza2.png"
                 alt="Menu Pizza - Parte 2"
-                width={600}
-                height={800}
+                width={1200}
+                height={1600}
                 className="w-full h-auto"
+                quality={100}
               />
             </div>
             
@@ -112,9 +116,10 @@ export default function MenuAsporto() {
               <Image
                 src="/images/MenuPizza3.png"
                 alt="Menu Pizza - Parte 3"
-                width={600}
-                height={800}
+                width={1200}
+                height={1600}
                 className="w-full h-auto"
+                quality={100}
               />
             </div>
 
@@ -127,9 +132,10 @@ export default function MenuAsporto() {
               <Image
                 src="/images/Pizzedolci.png"
                 alt="Pizze Dolci"
-                width={1000}
-                height={600}
+                width={2000}
+                height={1200}
                 className="w-full h-auto"
+                quality={100}
               />
             </div>
           </div>

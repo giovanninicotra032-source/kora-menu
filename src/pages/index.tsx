@@ -71,9 +71,11 @@ export default function Home() {
                 <Image
                   src="/images/1.png"
                   alt="Menu Sala"
-                  width={600}
-                  height={400}
+                  width={1200}
+                  height={800}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                  quality={100}
+                  priority
                 />
                 {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -108,9 +110,11 @@ export default function Home() {
                 <Image
                   src="/images/scatola.png"
                   alt="Menu D'asporto"
-                  width={600}
-                  height={400}
+                  width={1200}
+                  height={800}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                  quality={100}
+                  priority
                 />
                 {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -154,9 +158,10 @@ export default function Home() {
               <Image
                 src="/images/4.png"
                 alt="Pizza Artigianale"
-                width={800}
-                height={600}
+                width={1600}
+                height={1200}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                quality={100}
               />
               {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -171,9 +176,10 @@ export default function Home() {
               <Image
                 src="/images/5.png"
                 alt="Ambiente Pizzeria"
-                width={800}
-                height={600}
+                width={1600}
+                height={1200}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                quality={100}
               />
               {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -271,23 +277,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Gift Card Section */}
-          <div className="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-            <div className="flex items-center justify-center mb-6">
-              <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
-                </svg>
-              </div>
-              <h3 className="text-2xl font-bold">Regala esperienze, non oggetti</h3>
-            </div>
-            <p className="text-gray-300 text-lg mb-6">
-              Scopri le nostre Gift card
-            </p>
-            <button className="px-8 py-4 bg-white text-gray-900 rounded-full font-medium hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-              Acquistala qui
-            </button>
-          </div>
         </div>
       </section>
 
